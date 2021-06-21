@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Todo App</title>
+
+    <link href="styles/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./scripts/script.js" ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <button onclick="toggleLeftNav()" class="menu-button">
+        <i class="ri-menu-2-line"></i>
+      </button>
+      <div class="header-right-elements">
+        <button class="add-button">
+          <i class="ri-add-line"></i>
+        </button>
+        <button class="profile-avatar"></button>
+      </div>
+    </header>
+
+    <nav id="leftNav" class="left-nav open">
+      <h2 class="left-nav-title">Collections</h2>
+      <ul class="left-nav-list">
+        <li class="selected">Learn with Ajay</li>
+        <li>Work</li>
+        <li>College</li>
+      </ul>
+    </nav>
+  </body>
+</html>
